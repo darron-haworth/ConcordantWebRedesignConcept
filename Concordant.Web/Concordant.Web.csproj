@@ -73,14 +73,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="common\images\cpclogosm.gif" />
+    <Content Include="common\images\cpcmainlogo.gif" />
+    <Content Include="common\images\cpcmap.gif" />
+    <Content Include="common\images\img01.jpg" />
+    <Content Include="common\images\img02.jpg" />
+    <Content Include="common\images\img03.jpg" />
+    <Content Include="common\images\img04.jpg" />
     <Content Include="common\master\Site.Master" />
     <Content Include="Default.aspx" />
+    <Content Include="template.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
     <Folder Include="common\css\" />
-    <Folder Include="common\images\" />
     <Folder Include="common\scripts\" />
     <Folder Include="customers\" />
   </ItemGroup>
