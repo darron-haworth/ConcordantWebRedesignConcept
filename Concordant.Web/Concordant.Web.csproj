@@ -56,6 +56,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlankPage.aspx.cs">
+      <DependentUpon>BlankPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlankPage.aspx.designer.cs">
+      <DependentUpon>BlankPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="common\master\Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -73,21 +80,30 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BlankPage.aspx" />
+    <Content Include="common\css\style.css" />
     <Content Include="common\images\cpclogosm.gif" />
     <Content Include="common\images\cpcmainlogo.gif" />
     <Content Include="common\images\cpcmap.gif" />
     <Content Include="common\images\img01.jpg" />
     <Content Include="common\images\img02.jpg" />
     <Content Include="common\images\img03.jpg" />
+    <Content Include="common\images\img03a.jpg" />
+    <Content Include="common\images\img03b.jpg" />
     <Content Include="common\images\img04.jpg" />
     <Content Include="common\master\Site.Master" />
     <Content Include="Default.aspx" />
     <Content Include="template.html" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="common\images\Concordant New.psd" />
+    <None Include="common\images\ConcordantLogo.psd" />
+    <None Include="common\images\ConcordantLogoFinal.psd" />
+    <None Include="common\images\cpcmainlogo1.psd" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
-    <Folder Include="common\css\" />
     <Folder Include="common\scripts\" />
     <Folder Include="customers\" />
   </ItemGroup>

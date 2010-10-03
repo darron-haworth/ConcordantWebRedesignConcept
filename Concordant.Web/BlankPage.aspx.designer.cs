@@ -11,6 +11,6 @@
 namespace Concordant.Web {
     
     
-    public partial class Default {
+    public partial class BlankPage {
     }
 }
