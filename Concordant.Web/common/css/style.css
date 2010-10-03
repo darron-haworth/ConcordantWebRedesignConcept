@@ -47,7 +47,7 @@ a {
 	color: #990000;
 }
 
-a:hover { 
+a:hover {
 }
 
 #wrapper {
@@ -143,7 +143,7 @@ a:hover {
 }
 
 #search-submit {
-	display:block;
+	display: none;
 }
 
 /* Menu */
@@ -181,7 +181,7 @@ a:hover {
 	border: none;
 }
 
-#menu a:hover, #menu .current_page_item a { text-decoration:underline;{
+#menu a:hover, #menu .current_page_item a {
 }
 
 #menu .current_page_item a {
@@ -227,13 +227,9 @@ a:hover {
 }
 
 .post .title a {
-	color: 990000;;
+	color: #2B2B2B;
 	border: none;
-
-
-.post .title a:hover{
-    text-decoration:underline;
-}}
+}
 
 .post .meta {
 	margin-top: -10px;
@@ -305,7 +301,7 @@ a:hover {
 }
 
 #sidebar h2 {
-	height:388px;
+	height: 38px;
 	padding: 12px 0 0 0px;
 	letter-spacing: -.5px;
 	color: #181818;
