@@ -56,12 +56,33 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AudioMessages.aspx.cs">
+      <DependentUpon>AudioMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AudioMessages.aspx.designer.cs">
+      <DependentUpon>AudioMessages.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BlankPage.aspx.cs">
       <DependentUpon>BlankPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="BlankPage.aspx.designer.cs">
       <DependentUpon>BlankPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalog.aspx.cs">
+      <DependentUpon>Catalog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalog.aspx.designer.cs">
+      <DependentUpon>Catalog.aspx</DependentUpon>
     </Compile>
     <Compile Include="common\master\Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -70,6 +91,13 @@
     <Compile Include="common\master\Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="ConcordantVersion.aspx.cs">
+      <DependentUpon>ConcordantVersion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConcordantVersion.aspx.designer.cs">
+      <DependentUpon>ConcordantVersion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -77,23 +105,64 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Expositions.aspx.cs">
+      <DependentUpon>Expositions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Expositions.aspx.designer.cs">
+      <DependentUpon>Expositions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnsearchableRiches.aspx.cs">
+      <DependentUpon>UnsearchableRiches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnsearchableRiches.aspx.designer.cs">
+      <DependentUpon>UnsearchableRiches.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AudioMessages.aspx" />
     <Content Include="BlankPage.aspx" />
+    <Content Include="Catalog.aspx" />
     <Content Include="common\css\style.css" />
+    <Content Include="common\images\administ.gif" />
+    <Content Include="common\images\aekmem.gif" />
+    <Content Include="common\images\Bentley01.jpg" />
+    <Content Include="common\images\bound2.gif" />
     <Content Include="common\images\cpclogosm.gif" />
     <Content Include="common\images\cpcmainlogo.gif" />
     <Content Include="common\images\cpcmap.gif" />
+    <Content Include="common\images\cv.gif" />
+    <Content Include="common\images\divided.gif" />
+    <Content Include="common\images\DIVINECAL11X17.jpg" />
+    <Content Include="common\images\DIVINECAL11X17_small2.jpg" />
+    <Content Include="common\images\EonianTimes.gif" />
+    <Content Include="common\images\eons.gif" />
+    <Content Include="common\images\greek.gif" />
+    <Content Include="common\images\hebrew.gif" />
     <Content Include="common\images\img01.jpg" />
     <Content Include="common\images\img02.jpg" />
     <Content Include="common\images\img03.jpg" />
     <Content Include="common\images\img03a.jpg" />
     <Content Include="common\images\img03b.jpg" />
     <Content Include="common\images\img04.jpg" />
+    <Content Include="common\images\jcoram.gif" />
+    <Content Include="common\images\psalm103.gif" />
+    <Content Include="common\images\psalm126.gif" />
+    <Content Include="common\images\psalm22.gif" />
+    <Content Include="common\images\psalm27.gif" />
+    <Content Include="common\images\psalm34.gif" />
+    <Content Include="common\images\urjan362.gif" />
+    <Content Include="common\images\urjan752.gif" />
+    <Content Include="common\images\urjuly99.gif" />
     <Content Include="common\master\Site.Master" />
+    <Content Include="ConcordantVersion.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Expositions.aspx" />
     <Content Include="template.html" />
+    <Content Include="UnsearchableRiches.aspx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="common\images\Concordant New.psd" />

@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div class="post">
-				<h2 class="title"><a href="#">CPC Home Page</a></h2>
+				<h1 class="title"><a href="#">CPC Home Page</a></h1>
 				<p class="meta">Posted by <a href="#">Someone</a> on March 10, 2008
 					&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
 				<div class="entry">

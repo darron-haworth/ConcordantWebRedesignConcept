@@ -5,8 +5,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="post">
-        <h2 class="title">
-            <a href="default.aspx">CPC Home</a></h2>
+        <h1 class="title">
+            CPC Home</h1>
         <div class="entry">
             <p>
                 The Concordant Publishing Concern is a nondenominational, nonprofit association
